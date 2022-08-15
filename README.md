@@ -1,4 +1,4 @@
-<h1>RealTime Chat Application - LetsChat</h1>
+<h1>RealTime Chat Application - Pegion</h1>
 
 <ul>
 <li>It is an scalable Realtime Chatting Application that provides an interface for multiple user chatting at the same time.</li>
@@ -24,15 +24,9 @@
 # Process to run the app
 <ol>
   <li> run <b>nodemon nodeserver/index.js</b>
-  <li> Install the extension 'live server' for Vs Code. Extension Id - <b>ritwickdey.liveserver </b>
+  <li> Install the extension 'live server' for Vs Code. </b>
   <li> After the extension gets installed navigate to index.html and open it to edit.
   <li> Right click anywhere in the file <b>index.html</b> and from the menu that appears select <b> Open with Live server </b>
   <li> A instance of the application will appear in the browser. 
   <li> Copy the url from the address bar and open another instance in another tab or in incognito or on another browser.
 </ol>
-
-# User 1: Mayank Chaudhary
-![Screenshot (18)](https://user-images.githubusercontent.com/49724597/87877500-56988880-c9fc-11ea-9e09-306a95deb2cb.png)
-
-# User 2: Harry
-![Screenshot (19)](https://user-images.githubusercontent.com/49724597/87877502-57c9b580-c9fc-11ea-9ad4-fbe7aac19a47.png)
