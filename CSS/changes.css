@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body {
+    background-color: #f5f7fb;
+}
+.ch-header{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.ch-logo {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    max-width: 70px;
+    max-height: 70px;
+    object-fit: contain;
+    display: inline-block;
+}
+.ch-logo-name {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    height: auto;
+    width: auto;
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ch-container-one {
+    position: relative;
+    width: 30%;
+    height: 80vh;
+    margin: auto 20px;
+    margin-top:20px;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.ch-container-one-share {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: auto;
+    height: auto;
+    
+}
+
+.ch-container-one-share h3{
+    position:relative;
+    width: auto;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+}
+.ch-container-one-share-img {
+    position: relative;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+.ch-container {
+    position: relative;
+    width: 65%;
+    height: 80vh;
+    margin-top:20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+    
+    display: inline-block;
+}
+
+
+.left {
+    float: left;
+    clear: both;
+    background-color: #f5f7fb;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  
+  .right {
+    float: right;
+    clear: both;
+    background-color: #4e426d;
+    color: #cfc5e2;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  
+.ch-send {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    display: inline-block;
+
+}
+#send-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.ch-btn-send {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 17%;
+    height: auto;
+    padding: 10px 5px;
+    display: inline-block;
+    background: royalblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 500;
+
+}

@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 .logo{
     display: block;
     margin: auto;
@@ -7,16 +12,16 @@
 }
 body {
   height: 100vh;
-  background-color: rgb(
+  /* background-color: rgb(
     158,
     160,
     180
-  ); /* For browsers that do not support gradients */
-  background-image: radial-gradient(
+  ); For browsers that do not support gradients */
+  /* background-image: radial-gradient(
     rgb(214, 186, 214),
     rgb(158, 160, 180),
     rgb(151, 148, 169)
-  );
+  ); */
   padding: 0px;
   margin: 0px;
 }
@@ -49,15 +54,17 @@ h1 {
 }
 
 .container {
-  width: 80%;
+  position: relative;
+  width: 100%;
   margin: auto;
-  height: 40vh;
+  height: 100%;
   padding: 33px;
+  padding-bottom: 50px;
   overflow-y: auto;
-  margin-bottom: 23px;
-  border-radius: 50px;
+  /* margin-bottom: 23px; */
+  /* border-radius: 50px; */
 
-  border: 15px solid hsla(0, 0%, 100%, 0.5);
+  /* border: 15px solid hsla(0, 0%, 100%, 0.5); */
   background-image: url(../images/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,26 +86,38 @@ h1 {
 .left {
   float: left;
   clear: both;
+  background-color: #f5f7fb;
+  color: #555555;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .right {
   float: right;
   clear: both;
+  background-color: #4e426d;
+  color: #cfc5e2;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-#send-container {
-  width: 80%;
+/* #send-container {
+  width: 100%;
   display: block;
   position: relative;
-  margin-left: 10%;
-  top: 5%;
   text-align: center;
-}
+  display: block;
+} */
 
 #messageInp {
   display: none;
   position: relative;
   top: 5%;
+  display: block;
 }
 .btn {
   border-radius: 6px;
